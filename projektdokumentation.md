@@ -31,14 +31,21 @@ In diesem Projekt erstelle ich ein Glücksrad bei dem man die Rätselwörter err
 
 ✍️ Beschreiben Sie für dieselben Tiers, welche Programmiersprache bzw. Technologie Sie verwenden möchten.
 
-Ich werde mit React Native arbeiten und für die Datenbank, mysql benutzen.
+Tier 1 (Presentation): HTML für die Struktur der Webseite, CSS für das Styling der Webseite, JavaScript für die Interaktivität und Animationen
+
+Tier 2 (Webserver): Apache als Webserver-Software, Node.js als Laufzeitumgebung für JavaScript auf dem Server
+
+Tier 3 (Application Server):Node.js als Laufzeitumgebung für JavaScript auf dem Server, Express.js als Framework für den Webserver
+
+Tier 4 (Dataserver): MySQL als relationale Datenbank zur Speicherung von Spiel- und Benutzerdaten, Sequelize als Object-Relational Mapping für den Zugriff auf die Datenbank.
 
 # 3 Datenbank
 
 ✍️ Wie steuern Sie Ihre Datenbank an? Wie ist das Interface aufgebaut? 
 
-Die Datenbank werde ich mit mysql erstellen und eine direkte Verbindung erstellen (Business Logic Layer). 
-Ein Templating-System wird eingesetzt und ein externes Framework wird eingebunden.
+Die Datenbank steuere ich mit einer Datenbank-Verbindung an, über die man auf die Datenbank zugreifen kann. Dazu wird ein Treiber benötigt, welches es möglich macht mit der Datenbank zu kommunizieren.
+Das Interface für den Zugriff auf die MySQL Datenbank, wird SQL verwendet, um Datenbank Abfragen zu erstellen. 
+Das Interface zur Datenbank besteht aus Funktionen und Methoden, die es ermöglichen, Daten zu lesen, zu schreiben und zu aktualisieren. Diese können direkt im Code aufgerufen werden.
 
 # 4.1 User Stories
 
