@@ -114,7 +114,9 @@ Das Interface zur Datenbank besteht aus Funktionen und Methoden, die es ermögli
 
 | User Story | Datum | Beschreibung |
 | ---------- | ----- | ------------ |
-| ...        |       |              |
+| 1 - 6        | 13.02      |      Administration erstellt        |
+| 7 - 9 | 13.02 | mit GUI angefangen |
+| 10 - 15 | 20.02 | GUI weiterprogrammiert und angefangen Spiel zu programmieren|
 
 # 7 Projektdokumentation
 
