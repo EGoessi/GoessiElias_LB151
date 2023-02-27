@@ -5,12 +5,11 @@ Goessi
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
 |       | 0.0.1   | ✍️ Jedes Mal, wenn Sie an dem Projekt arbeiten, fügen Sie hier eine neue Zeile ein und beschreiben in *einem* Satz, was Sie erreicht haben. |
-| 23.01 | 0.0.2   | Heute habe ich mit überlegt wie ich bei der Umsetzung vorangehen möchte.                                                             |
-|       | 0.0.3   |                                                              |
-|       | 0.0.4   |                                                              |
-|       | 0.0.5   |                                                              |
-|       | 0.0.6   |                                                              |
-|       | 1.0.0   |                                                              |
+| 23.01 | 1.1.0   | Heute habe ich mit überlegt wie ich bei der Umsetzung vorangehen möchte.                                                             |
+| 13.02 | 1.2.0   | Administration programmiert und Github repository aktualisiert                                                             |
+| 20.02 | 1.3.0   | Gui und Spiel angefangen zu programmieren                                                           |
+| 27.02  | 1.4.0  |  Github repository fertiggestellt und abgegeben                                                            |
+
 
 # 0 Ihr Projekt
 
@@ -93,7 +92,7 @@ Das Interface zur Datenbank besteht aus Funktionen und Methoden, die es ermögli
 | 12.1     | Spiel ist erstellt   | Spiele mehrere runden | Kein Rätselwort wurde zweimal gestellt
 | 13.1     | Spiel ist erstellt   | Beende das Spiel und übernehme Gewinn      | Spiel wurde beendet und Gewinn wurde aus Highscore-Liste übernommen
 | 14.1     | Als Admin eingeloggt  | Überprüfe ob Spiel ausreichend Anzahl an Wörter enthält | Spiel ist ausreichend unerhaltsam 
-| 6.2     | Spiel ist erstellt   | Spiele mehrere Runden      |  Anzahl der Spielrunden wurde korrekt gezählt 
+|15.1     | Spiel ist erstellt   | Spiele mehrere Runden      |  Anzahl der Spielrunden wurde korrekt gezählt 
 
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
