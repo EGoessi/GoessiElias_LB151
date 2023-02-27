@@ -6,8 +6,8 @@ Goessi
 | ----- | ------- | ------------------------------------------------------------ |
 |       | 0.0.1   | ✍️ Jedes Mal, wenn Sie an dem Projekt arbeiten, fügen Sie hier eine neue Zeile ein und beschreiben in *einem* Satz, was Sie erreicht haben. |
 | 23.01 | 1.1.0   | Heute habe ich mit überlegt wie ich bei der Umsetzung vorangehen möchte.                                                             |
-| 13.02 | 1.2.0   | Administration programmiert und Github repository aktualisiert                                                             |
-| 20.02 | 1.3.0   | Gui und Spiel angefangen zu programmieren                                                           |
+| 13.02 | 1.2.0   | Administration programmiert, Angefangen GUI zu programmieren und Github repository aktualisiert                                               |
+| 20.02 | 1.3.0   | Spiel angefangen zu programmieren                                                           |
 | 27.02  | 1.4.0  |  Github repository fertiggestellt und abgegeben                                                            |
 
 
