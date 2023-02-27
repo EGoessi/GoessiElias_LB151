@@ -122,8 +122,16 @@ Das Interface zur Datenbank besteht aus Funktionen und Methoden, die es ermögli
 
 | US-№ | Erledigt? | Entsprechende Code-Dateien oder Erklärung |
 | ---- | --------- | ----------------------------------------- |
-| 1    | ja / nein |                                           |
-| ...  |           |                                           |
+| 1 - 4   | ja    |      in index.js                          |
+| 2       |  ja   |   in new-words.ejs                        |
+| 5       | ja    |   in category.hbs                         |
+| 6       | nein  | -                                   |
+| 7       | ja    |            user.html                       |
+| 7 - 10 |  ja    |   user.js                       |
+| 11      | nein  |    -                                        |
+| 12-13  | ja       |       user.html                           |
+| 14      |  ja        |   in new-words.ejs                  |
+| 15    | nein         |   -      |
 
 # 8 Testprotokoll
 
@@ -131,10 +139,26 @@ Das Interface zur Datenbank besteht aus Funktionen und Methoden, die es ermögli
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
-| 1.1  |       |          |        |
-| ...  |       |          |        |
+| 1.1  | 27.02   |    NOK      |  Elias Gössi      |
+| 2.1  | 27.02   |    NOK      |  Elias Gössi       |
+| 3.1  | 27.02   |    NOK       |   Elias Gössi      |
+| 4.1  | 27.02   |   NOK       |   Elias Gössi      |
+| 5.1  | 27.02   |    NOK      |   Elias Gössi      |
+| 6.1  | 27.02   |    NOK      |   Elias Gössi      |
+| 7.1  | 27.02   |    NOK      |   Elias Gössi      |
+| 8.1  | 27.02   |     NOK     |   Elias Gössi      |
+| 9.1  | 27.02   |     NOK     |   Elias Gössi      |
+| 10.1  | 27.02   |    NOK      |   Elias Gössi      |
+| 11.1  | 27.02   |    NOK      |  Elias Gössi      |
+| 11.2  | 27.02   |    NOK      |  Elias Gössi      |
+| 12.1 | 27.02   |    NOK      |   Elias Gössi     |
+| 13.1  | 27.02   |   NOK       |   Elias Gössi     |
+| 14.1  | 27.02   |   NOK       |   Elias Gössi     |
+| 15.1  | 27.02   |   NOK       |   Elias Gössi     |
 
 ✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
+
+Fazit: Ich konnte das Programm nicht fertigstellen und konnte auch nichts testen, da das Programm bei mir nicht gestartet hat. 
 
 # 9 `README.md`
 
@@ -142,6 +166,6 @@ Das Interface zur Datenbank besteht aus Funktionen und Methoden, die es ermögli
 
 # 10 Allgemeines
 
-- [ ] Ich habe die Rechtschreibung überprüft
-- [ ] Ich habe überprüft, dass die Nummerierung von Testfällen und User Stories übereinstimmen
-- [ ] Ich habe alle mit ✍️ markierten Teile ersetzt
+- [x ] Ich habe die Rechtschreibung überprüft
+- [x] Ich habe überprüft, dass die Nummerierung von Testfällen und User Stories übereinstimmen
+- [x] Ich habe alle mit ✍️ markierten Teile ersetzt
