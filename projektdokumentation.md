@@ -15,7 +15,7 @@ Goessi
 
 ✍️ Beschreiben Sie Ihr Projekt in einem griffigen Satz.
 
-In diesem Projekt erstelle ich ein Glücksrad bei dem man die Rätselwörter erraten muss, dies ist mit einer Datenbank verbunden.
+In diesem Projekt erstelle ich ein Glücksrad mit JSF, bei dem man die Rätselwörter erraten muss und Geld gewinnen kann, dies ist mit einer MySQL Datenbank verbunden.
 
 # 1 Analyse
 
