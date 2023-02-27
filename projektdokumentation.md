@@ -55,12 +55,21 @@ Das Interface zur Datenbank besteht aus Funktionen und Methoden, die es ermögli
 
 | US-№ | Verbindlichkeit | Typ            | Beschreibung                       |
 | ---- | --------------- | ----           | ---------------------------------- 
-| 1    |  Muss           |  Funktional    | Als Administrator möchte ich mich authentifizieren können, damit ich Phrasen, Rätselwörter und Kategorien bearbeiten kann
-| 2    |  Muss           |  Funktional    | Als Administrator möchte ich mich authentifizieren können, damit ich Einträge aus der Highscore-Liste löschen kann 
-| 3    |  Muss           |  Funktional    | Als Kandidat/in möchte ich mich einen Namen eingeben können, damit ich auf der Highscore-Liste erscheine
-| 4    |  Muss           |  Funktional    | Als Kandidat/in möchte ich wissen ob meine Anwort richtig oder falsch war, damit ich es nochmals versuchen kann
-| 5    |  Kann           |  Funktional    | Als Kandidat/in möchte ich jederzeit aufhören oder weiterspielen können, damit ich selber entscheiden kann
-| 6    |  Muss           |  Funktional    | Als Kandidat/in möchte ich jederzeit den Kontostand und die Lebenspunkte sehen, damit ich den Überblick habe
+| 1    |  Muss           |  Funktional    | Als Administrator möchte ich mich durch Benutzername und Passwort authentifizieren können, damit ich Zugriff auf die      Administrationsfunktionen habe.
+| 2    |  Muss           |  Funktional    | Als Administrator möchte ich Phrasen und Rätselwörter anlegen, damit ich neue Inhalte für die Rätsel- und Wortspiele erstellen kann.
+| 3    |  Muss           | Funkional       | Als Administrator möchte ich Phrasen und Rätselwörter ändern/löschen können, damit ich Inhalte aktualisieren/entfernen kann.
+| 4    |  Muss           |  Funktional    | Als Administrator möchte ich Kategorien anlegen, damit ich die Inhalte der Rätsel- und Wortspiele organisieren kann.
+| 5    |  Muss           |  Funktional    | Als Administrator möchte ich jedes Wort bzw. jede Frage einer Kategorie zuordnen können, damit die Spiele immer mit den relevanten Inhalten ausgestattet sind.
+| 6    |  Kann           |  Funktional    | Als Administrator möchte ich einzelne Einträge der Highscore-Liste löschen können, damit ich die Highscore-Liste bereinigen kann.
+| 7    |  Muss           |  Funktional    | Als Kandidat/in möchte ich einen Namen eingeben können, der auf der Highscore-Liste erscheint, damit ich mich mit anderen Spielern vergleichen kann.
+| 8    |  Muss           |  Funktional    | Als Kandidat/in möchte ich meinen Kontostand sehen, damit ich weiß, wie viel Geld ich bereits gewonnen habe.
+| 9    |  Muss           |  Funktional    | Als Kandidat/in möchte ich meine Lebenspunkte sehen, damit ich weiß, wie viele Leben mir noch zur Verfügung stehen.
+| 10    |  Kann           |  Funktional    | Als Kandidat/in möchte ich wissen ob meine Anwort richtig oder falsch war, damit ich es nochmals versuchen kann.
+| 11    |  Muss           |  Funktional    | Als Kandidat/in möchte ich, dass die Highscore-Liste nach Rang sortiert wird, der durch die Höhe des Geldbetrags bestimmt wird, damit ich weiss wer der beste Spieler ist.
+| 12    |  Muss           |  Funktional    | Als Kandidat/in möchte  ich nicht zweimal dasselbe Rätselwort oder dieselbe Phrase gestellt bekommen, damit das Spiel abwechslungsreich bleibt.
+| 13    |  Muss           |  Funktional    | Als Kandidat/in möchte ich jederzeit die Möglichkeit haben, entweder weiterzuspielen oder aufzuhören und meinen Gewinn in die Highscore-Liste zu übernehmen, damit ich selber entscheiden kann, wie lange ich spielen möchte.
+| 14    |  Muss           |  Funktional    | Als Administrator möchte ich eine spielbare Anzahl an Wörtern und Fragen im Spiel haben, damit das Spiel ausreichend unterhaltsam ist und genügend Abwechslung bietet.
+| 15    |  Muss           |  Funktional    | Als Kandidat/in möchte ich, dass die Anzahl der Spielrunden gezählt wird, damit ich meinen Fortschritt beim Spielen verfolgen kann.
 
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc. oder Zahl), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). 
@@ -69,14 +78,23 @@ Das Interface zur Datenbank besteht aus Funktionen und Methoden, die es ermögli
 
 | TC-№    | Vorbereitung         | Eingabe                | Erwartete Ausgabe 
 | ----    | ------------         | -------                | ----------------- 
-| 1.1     | Login ist erstellt   | einloggen Admin        | Admin ist eingeloggt                  
-| 1.2     | Login ist erstellt   | einloggen Admin        | Admin ist eingeloggt  
-| 1.3     | Spiel ist erstellt   | Name eingeben          | Name wird gespeichert 
-| 1.4     | Spiel ist erstellt   | Anwort eingeben        | Anwort ist richtig/falsch
-| 1.5.1   | Spiel ist erstellt   | Spiel abbrechen        | Spiel wird abgebrochen
-| 1.5.2   | Spiel ist erstellt   | Spiel weiterspielen    | Spiel geht weiter
-| 1.6.1   | Spiel ist erstellt   | Kontostand nimmt zu/ab | Kontostand wird angezeigt
-| 1.6.2   | Spiel ist erstellt   | Anwort war falsch      | Lebenspunkte werden angezeigt
+| 1.1     | Login ist erstellt   | Benutzername und Passwort eingeben        | Admin ist eingeloggt                  
+| 2.1     | Als Admin eingeloggt   | Lege neue Phrasen an        | Phrasen wurden erfolgreich in der Datenbank gespeichert  
+| 3.1     | Als Admin eingeloggt | Lösche/ändere Phrasen          | Phrasen wurden in der Datenbank aktualisiert/gelöscht
+| 4.1     | Als Admin eingeloggt   | Lege Kategorie an       | Kategorie wurde erfolgreich in der Datenbank gespeichert
+| 5.1     | Als Admin eingeloggt | Ordne Wort einer Kategorie zu | Kategorie wurde erfolgreich in der Datenbank aktualisiert
+| 6.1     | Als Admin eingeloggt   | Lösche Eintrag aus der Highscore-Liste       | Eintrag wurde erfolgreich aus der der Datenbank entfernt
+| 7.1     | Spiel ist erstellt   | Gebe Namen ein         | Name wird auf der Highscore-Liste angezeigt
+| 8.1     | Spiel ist erstellt   | Gewinnt / Verliert Geld      | Kontostand wird korrekt angezeigt 
+| 9.1     | Spiel ist erstellt   | Frage wurde richtig/falsch beantwortet | Lebenspunkte werden korrekt angezeigt
+| 10.1     | Spiel ist erstellt   | Frage wurde richtig/falsch beantwortet  | Mitteilung wird auf Bildschirm angezeigt
+| 11.1     | Spiel ist erstellt   | Hat höchsten Geldbetrag | Highscore-Liste Rang zuoberst
+| 11.2     | Spiel ist erstellt   | Hat tiefsten Geldbetrag | Highscore-Liste Rang zuunterst
+| 12.1     | Spiel ist erstellt   | Spiele mehrere runden | Kein Rätselwort wurde zweimal gestellt
+| 13.1     | Spiel ist erstellt   | Beende das Spiel und übernehme Gewinn      | Spiel wurde beendet und Gewinn wurde aus Highscore-Liste übernommen
+| 14.1     | Als Admin eingeloggt  | Überprüfe ob Spiel ausreichend Anzahl an Wörter enthält | Spiel ist ausreichend unerhaltsam 
+| 6.2     | Spiel ist erstellt   | Spiele mehrere Runden      |  Anzahl der Spielrunden wurde korrekt gezählt 
+
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 
