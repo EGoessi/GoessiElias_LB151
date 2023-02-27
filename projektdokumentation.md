@@ -137,6 +137,8 @@ Das Interface zur Datenbank besteht aus Funktionen und Methoden, die es ermögli
 
 ✍️ Fügen Sie hier den Link zu dem Video ein, welches den Testdurchlauf dokumentiert.
 
+https://bbbaden-my.sharepoint.com/:v:/g/personal/e_goessi_inf19_stud_bbbaden_ch/EQN4QNk3M75Egp-xnOurR3EBDjAY6KHM1y9Ln5SKKwy3sw?e=2sI9df
+
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
 | 1.1  | 27.02   |    NOK      |  Elias Gössi      |
