@@ -166,6 +166,6 @@ Fazit: Ich konnte das Programm nicht fertigstellen und konnte auch nichts testen
 
 # 10 Allgemeines
 
-- [x ] Ich habe die Rechtschreibung überprüft
+- [x] Ich habe die Rechtschreibung überprüft
 - [x] Ich habe überprüft, dass die Nummerierung von Testfällen und User Stories übereinstimmen
 - [x] Ich habe alle mit ✍️ markierten Teile ersetzt
